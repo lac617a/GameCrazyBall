@@ -448,7 +448,7 @@ class EscenaNivel4(Escena):
 			else:
 				self.pelota.speed[1] = -self.pelota.speed[1]
 			# SI PELOTA COLISONA CON EL MURO, ELIMINARA ESE MURO COLISIONADO
-			self.muro.remove(ladrillo)
+			self.muro4.remove(ladrillo)
 
 			# SI LA PELOTA COLISIONA CON EL MURO SUMA 10 PUNTOS
 			puntuacion += 10
